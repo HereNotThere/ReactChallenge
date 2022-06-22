@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import Button from "./Button";
 
-function Counter({ limit }) {
+function Counter({ limit }: { limit: number }) {
   const [count, setCount] = React.useState(0);
   const isLimitReached = limit ? count === limit : false;
 
@@ -30,7 +30,7 @@ function Counter({ limit }) {
 }
 
 Counter.propTypes = {
-  limit: PropTypes.number
+  limit: PropTypes.number,
 };
 
 export default Counter;
