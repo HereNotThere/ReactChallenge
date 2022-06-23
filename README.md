@@ -1,6 +1,4 @@
-<div align="center">
-    <img src="https://raw.githubusercontent.com/HereNotThere/ReactChallenge/main/src/assets/hnt_logo_small.png"/>
-</div>
+![hnt logo](https://raw.githubusercontent.com/HereNotThere/ReactChallenge/main/src/assets/hnt_logo_small.png)
 
 ## Description
 
@@ -12,9 +10,7 @@ The goal of this exercise is to create a demo calendar application using React.
 
 You should start by rendering a single month view of a calendar for the current month, along the lines of the illustration below:
 
-<div align="center">
-    <img src="https://raw.githubusercontent.com/HereNotThere/ReactChallenge/main/src/assets/CalendarSample.png"/>
-</div>
+![CalendarSample](https://raw.githubusercontent.com/HereNotThere/ReactChallenge/main/src/assets/CalendarSample.png)
 
 ## Mandatory features
 
