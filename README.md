@@ -2,40 +2,49 @@
 
 ## Description
 
-This project is designed to test your knowledge of front-end web technologies and assess your ability to create front-​end UI products with attention to details, cross-browser compatibility, standards, and reusability.
+This project is designed to test your knowledge of front-end web technologies
+and assess your ability to create front-​end UI products with attention to
+details, standards, and user-experience.
 
 ## Assignment
 
-The goal of this exercise is to create a demo calendar application using React.
+The goal of this exercise is to create a simplified version of the MacOS
+calendar in React like the screenshot below.
 
-You should start by rendering a single month view of a calendar for the current month, along the lines of the illustration below:
+You should start by rendering a single month view of a calendar for the current month.
 
-![CalendarSample](https://raw.githubusercontent.com/HereNotThere/ReactChallenge/main/src/assets/CalendarSample.png)
+![CalendarSample](https://raw.githubusercontent.com/HereNotThere/ReactChallenge/main/src/assets/layout.png)
 
 ## Mandatory features
 
-- Ability to add "_reminders_" (max. 30 characters) for a day and time specified by the user. Also, include a city.
-- Ability to edit reminders - including changing text, city, day and time.
-- Add a weather service call from [MetaWeather](https://www.metaweather.com/), [AccuWeather](https://developer.accuweather.com/accuweather-forecast-api/apis/get/forecasts/v1/daily/5day/%7BlocationKey%7D) or [VisualCrossing](https://www.visualcrossing.com/weather/weather-data-services#/login) and get the weather forecast (e.g. Rain) for the date of the calendar reminder based on the city.
+- Calendar to match as close as possible the suggested layout
+- Ability to add "_reminders_" (max. 30 characters) - Double-clicking a date
+  opens a modal like in the screenshot.
+- Ability to edit reminders by double clicking the reminder- including
+  changing title, description.
+- Ability to delete a reminder by selecting and hitting Backspace
 
-## Bonus (Optional)
+## Bonus (Pick 2 minimum)
 
-- Expand the calendar to support more than the current month or year.
-- Properly handle overflow when multiple reminders appear on the same date.
-- Unit test the functionality: *Ability to add "*reminders*" (max. 30 characters) for a day and time specified by the user. Also, include a city.*
+- Dark / Bright mode switch
+- Ability to change date by drag and drop
+- Ability to pick the color from a palette of 6 colors (bespoke UI)
+- Expand the calendar to support more than the current month or year using the
+  same scrolling mechanism as MacOS Calendar.
+- Enable reminders with start - end date spanning across several days.
+- Unit test the functionality: *Ability to add "*reminders*" (max. 30 characters) for a day and time specified by the user. Also, include a description.*
 
 ## Considerations
 
 - Show us in the Readme all relevant information about your project.
 - The project is completely focused on Front-end. Ignore the Back-end.
+- Target modern browsers, < 2 years backwards compatibility.
 - Create your Calendar using the route `/calendar`
-- Feel free to use small helper libraries for:
-  -- UI Elements.
-  -- Date/Time handling.
+- Feel free to use small helper libraries for Date/Time handling.
 - **You must create the calendar component yourself**. Do not user calendar libraries like FullCalendar or Bootstrap Calendar.
-- Provide working API keys to any external API you use.
+- Show us your capabilities on CSS and styling, we have added SASS support but
+  please feel free to use any CSS in JS solution you are comfortable with.
 - We have implemented Redux thunk for state management, but you may use any state manager you are familiar with.
-- Show us your capabilities on CSS and styling, if possible.
 
 # How to deploy
 
