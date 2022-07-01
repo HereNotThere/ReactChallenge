@@ -1,4 +1,4 @@
-![hnt logo](https://raw.githubusercontent.com/HereNotThere/ReactChallenge/main/src/assets/hnt_logo_small.png)
+<img src="https://raw.githubusercontent.com/HereNotThere/ReactChallenge/main/src/assets/hnt_logo_small.png" width="320" />
 
 ## Description
 
@@ -13,7 +13,7 @@ calendar in React like the screenshot below.
 
 You should start by rendering a single month view of a calendar for the current month.
 
-![CalendarSample](https://raw.githubusercontent.com/HereNotThere/ReactChallenge/main/src/assets/layout.png)
+<img src="https://raw.githubusercontent.com/HereNotThere/ReactChallenge/main/src/assets/layout.png" width="640" />
 
 ## Mandatory features
 
@@ -27,7 +27,7 @@ You should start by rendering a single month view of a calendar for the current 
 ## Bonus (Pick 2 minimum)
 
 - Dark / Bright mode switch
-- Ability to change date by drag and drop
+- Ability move tasks on the calendar by drag and drop
 - Ability to pick the color from a palette of 6 colors (bespoke UI)
 - Expand the calendar to support more than the current month or year using the
   same scrolling mechanism as MacOS Calendar.
