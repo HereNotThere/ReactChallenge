@@ -57,6 +57,13 @@ li {
 .readme {
   width: 800px;
   margin: 2rem calc((100vw - 800px) / 2);
+  img[alt="logo"] {
+    max-width: 220px;
+  }
+  img[alt="calendar"] {
+    width: 100%;
+    max-width: 820px;
+  }
 }
 
 .counter {

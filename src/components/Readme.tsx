@@ -14,7 +14,8 @@ function Readme() {
       .then((response) => response.text())
       .then((response) => {
         setMd(`${response}
-        
+---
+
 ## About Unit Tests:
 The component below has a suite of tests to that could serve as guidance to unit test the calendar functionality, tests are located at \`src/components/Counter.test.jsx\`
         
@@ -24,7 +25,7 @@ The component below has a suite of tests to that could serve as guidance to unit
 
   return (
     <div className="readme">
-      <ReactMarkdown children={md} />
+      <ReactMarkdown children={md} skipHtml={true} />
       {md && (
         <>
           <Counter limit={3} />
