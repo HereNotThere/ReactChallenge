@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/HereNotThere/ReactChallenge/main/src/assets/hnt_logo_small.png" width="320" />
+![logo](https://raw.githubusercontent.com/HereNotThere/ReactChallenge/main/src/assets/hnt_logo_small.png)
 
 ## Description
 
@@ -13,7 +13,7 @@ calendar in React like the screenshot below.
 
 You should start by rendering a single month view of a calendar for the current month.
 
-<img src="https://raw.githubusercontent.com/HereNotThere/ReactChallenge/main/src/assets/layout.png" width="640" />
+![calendar](https://raw.githubusercontent.com/HereNotThere/ReactChallenge/main/src/assets/layout.png)
 
 ## Mandatory features
 
